@@ -1,6 +1,7 @@
 footer {
   background-color: black;
-  color: rgb(0, 125, 125);
+  color: rgb(6, 221, 221);
+  padding-block: 1rem;
 }
 
 header {
