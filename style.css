@@ -1,4 +1,40 @@
 main {
 width: 50%;
 margin: auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  color: #4c0831;
+  background: pink;
+  /*margin: 1rem;*/
+  padding: 1rem;
+  corner-radius: 100px;
+}
+
+.starting {
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #4c0831;
+  background: rgb(253, 221, 226);
+  margin-block-start: 2rem;
+}
+
+.suivant {
+  border-left: 1.5px solid black;
+  padding-inline-start: 2rem;
+  transition: all 1s linear;
+}
+
+.suivant:hover {
+  border-left: 3px solid #bb1d7c;
+  color: #bb1d7c;
+  font-size: 1.1rem;
+}
+
+button {
+background: pink;
+border-radius: 30px;
 }
